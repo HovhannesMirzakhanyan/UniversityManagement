@@ -19,9 +19,14 @@ namespace UniversityManagment
             Student student3 = new Student("Sahak", 25);
             Student student4 = new Student("Sahak", 25);
             Teacher teacher = new Teacher("Nune", 55);
+            UniversityService uniService = new UniversityService(student, teacher);
             StudentService service = new StudentService();
-            UniversityService uniService = new UniversityService(student,teacher);
+           
             uniService.AddTeacher(student, teacher);
+            uniService.AddTeacher(student1, teacher);
+            uniService.AddTeacher(student2, teacher);
+            uniService.AddTeacher(student3, teacher);
+            uniService.AddTeacher(student4, teacher);
             service.Add(student);
             service.Add(student1);
             service.Add(student2);

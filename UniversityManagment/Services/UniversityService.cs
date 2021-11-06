@@ -26,7 +26,7 @@ namespace UniversityManagment.Services
 
         public void AddTeacher(Student student, Teacher teacher)
         {
-            _student._teacher = _teacher;
+            student._teacher = teacher;
         }
 
     }

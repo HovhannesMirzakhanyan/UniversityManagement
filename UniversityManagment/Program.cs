@@ -27,6 +27,11 @@ namespace UniversityManagment
             uniService.AddTeacher(student2, teacher);
             uniService.AddTeacher(student3, teacher);
             uniService.AddTeacher(student4, teacher);
+            uniService.AddStudent(student, teacher);
+            uniService.AddStudent(student2, teacher);
+            uniService.AddStudent(student3, teacher);
+            uniService.AddStudent(student4, teacher);
+            uniService.AddStudent(student1, teacher);
             service.Add(student);
             service.Add(student1);
             service.Add(student2);

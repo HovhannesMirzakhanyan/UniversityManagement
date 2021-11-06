@@ -29,5 +29,10 @@ namespace UniversityManagment.Services
             student._teacher = teacher;
         }
 
+        public void AddStudent(Student student, Teacher teacher)
+        {
+            teacher._students.Add(student);
+        }
+
     }
 }

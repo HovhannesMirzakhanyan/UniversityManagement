@@ -14,10 +14,10 @@ namespace UniversityManagment
         static void Main(string[] args)
         {
             Student student = new Student("Sahak", 25);
-            Student student1 = new Student("Sahak", 25);
-            Student student2 = new Student("Sahak", 25);
-            Student student3 = new Student("Sahak", 25);
-            Student student4 = new Student("Sahak", 25);
+            Student student1 = new Student("Manuk", 25);
+            Student student2 = new Student("Jhon", 25);
+            Student student3 = new Student("Richard", 25);
+            Student student4 = new Student("Micky", 25);
             Teacher teacher = new Teacher("Nune", 55);
             UniversityService uniService = new UniversityService(student, teacher);
             StudentService service = new StudentService();
